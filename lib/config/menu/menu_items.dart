@@ -49,9 +49,19 @@ const appMenuItems = <MenuItem>[
       subtitle: "Tutorial de la app",
       link: "/tutorial",
       icon: Icons.accessibility_new_rounded),
-      MenuItem(
+  MenuItem(
       title: "Infinite Scroll y Pull Refresh",
       subtitle: "Listas infinitas y pull refresh",
       link: "/infinite",
       icon: Icons.list_alt_rounded),
+  MenuItem(
+      title: "Contador riverpod",
+      subtitle: "Introduccion a riverpod",
+      link: "/counter",
+      icon: Icons.numbers),
+  MenuItem(
+      title: "Cambiar tema",
+      subtitle: "Cambiar tema de la app",
+      link: "/theme-changer",
+      icon: Icons.color_lens_outlined),
 ];
